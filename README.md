@@ -7,5 +7,9 @@
 - Node.js / Version v8.11.3
 - npm / Version 6.1.0
 
-# www.ganatan.com
-- tutoriel
+# fonctionnalités utilisées
+- angular-cli
+- angular-universal (ssr server side rendering)
+
+# Tutoriel
+- www.ganatan.com
