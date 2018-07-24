@@ -13,3 +13,12 @@
 
 # Tutoriel
 - www.ganatan.com
+
+# Comment utiliser ce dépôt
+- npm install (installation des dépendances)
+- npm run start (éxécution en mode debug)
+- npm run lint (test du code source)
+- npm run test (test)
+- npm run e2e (test)
+- npm run build:ssr (compilation aot / ssr)
+- npm run serve:ssr (éxécution en production)
