@@ -30,9 +30,9 @@
     "@nguniversal/express-engine": "6.0.0",
     "@nguniversal/module-map-ngfactory-loader": "6.0.0",
     "core-js": "2.5.7",
-    "rxjs": "6.2.1",
+    "rxjs": "6.2.2",
     "ts-loader": "4.4.2",
-    "webpack-cli": "^3.0.8",
+    "webpack-cli": "3.1.0",
     "zone.js": "0.8.26"
   },
   "devDependencies": {
@@ -51,9 +51,9 @@
     "karma-coverage-istanbul-reporter": "2.0.1",
     "karma-jasmine": "1.1.2",
     "karma-jasmine-html-reporter": "1.2.0",
-    "protractor": "5.3.2",
+    "protractor": "5.4.0",
     "ts-node": "7.0.0",
-    "tslint": "5.10.0",
+    "tslint": "5.11.0",
     "typescript": "2.7.2"
   },
   "engines": {

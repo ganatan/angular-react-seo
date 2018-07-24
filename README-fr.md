@@ -1,7 +1,7 @@
-# Projet
-- name : angular-erp-starter
+# Nom du projet
+- nom : angular-erp-starter
 - date : 24/07/2018 16:47
-- author : chendra
+- auteur : chendra
 
 # Configuration utilisée
 - Angular / Version 6.0.9
