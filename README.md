@@ -1,14 +1,11 @@
-# angular-cli.seed
-08/05/2018
+# Nom du projet
+- angular-erp-starter
+- 24/07/2018 16:47
 
-# config
-
-- Node.js / Version v8.11.3 / 
-  verify version (node --version)
-
+# configuration utilisée
+- Angular / Version 6.0.9
+- Node.js / Version v8.11.3
 - npm / Version 6.1.0
-  verify version (npm --version)
-  update version (npm install npm -g)
 
-- dependencies
-  verify (npm outdated)
+# www.ganatan.com
+- tutoriel
