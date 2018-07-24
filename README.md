@@ -1,18 +1,18 @@
+# Auteur 
+- Chendra
+
 # Nom du projet
 - angular-erp-starter
 - 24/07/2018 16:47
 
-# configuration utilisée
+# Configuration utilisée
 - Angular / Version 6.0.9
 - Node.js / Version v8.11.3
 - npm / Version 6.1.0
 
-# fonctionnalités utilisées
+# Fonctionnalités utilisées
 - angular-cli
 - angular-universal (ssr server side rendering)
-
-# Tutoriel
-- www.ganatan.com
 
 # Comment utiliser ce dépôt
 - npm install (installation des dépendances)
@@ -22,3 +22,7 @@
 - npm run e2e (test)
 - npm run build:ssr (compilation aot / ssr)
 - npm run serve:ssr (éxécution en production)
+
+# Tutoriel détaillé
+- www.ganatan.com
+
