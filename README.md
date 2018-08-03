@@ -1,26 +1,37 @@
-# Projet
-- name : angular-erp-starter
-- date : 02/08/2018 11:18
-- author : chendra
+# Angular ERP seed
+- Date : 03/08/2018 19:49
+- Author : chendra
 
-# Configuration utilisée
-- Angular / Version 6.0.9
+# Demo
+http://starter.ganatan.com/
+
+# Goal
+- Basic Angular Project (version 6.1.1 du 03/08/2018)
+- SSR (server side rendering)
+
+# Prerequisites
+- Angular / Version 6.1.1
+- Angular-cli / Version 6.1.2
+- Angular-universal / Version 6.1.2
 - Node.js / Version v8.11.3
-- npm / Version 6.1.0
+- npm / Version 6.3.0
+- Visual studio code / Version 1.25.1
 
-# Fonctionnalités utilisées
-- angular-cli
-- angular-universal (ssr:server side rendering)
-
-# Comment utiliser ce dépôt
+# Installation
 - npm install (installation des dépendances)
-- npm run start (éxécution en mode debug)
-- npm run lint (test du code source)
-- npm run test (test)
-- npm run e2e (test)
+
+# Debug
+- npm run start
+
+# Test
+- npm run lint
+- npm run test
+- npm run e2e
+
+# Execution
+- npm run build (compilation aot)
 - npm run build:ssr (compilation aot / ssr)
 - npm run serve:ssr (éxécution en production)
 
-# Tutoriel détaillé
-- www.ganatan.com
-
+# Tutoriel 
+- www.ganatan.com/articles

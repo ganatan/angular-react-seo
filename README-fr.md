@@ -1,12 +1,13 @@
 # Nom du projet
-- nom : angular-erp-starter
-- date : 24/07/2018 16:47
+- nom : angular-erp-seed
+- date : 03/08/2018 09:29
 - auteur : chendra
 
 # Configuration utilisée
-- Angular / Version 6.0.9
+- Angular / Version 6.1.1
+- Angular-cli / Version 6.1.2
 - Node.js / Version v8.11.3
-- npm / Version 6.1.0
+- npm / Version 6.3.0
 
 # Fonctionnalités utilisées
 - angular-cli
