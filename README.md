@@ -23,6 +23,7 @@ http://starter.ganatan.com/
 
 # Debug
 - npm run start
+- http://localhost:4200
 
 # Test
 - npm run lint
@@ -33,6 +34,7 @@ http://starter.ganatan.com/
 - npm run build (compilation aot)
 - npm run build:ssr (compilation aot / ssr)
 - npm run serve:ssr (éxécution en production)
+- http://localhost:4002
 
 # Tutoriel 
 - www.ganatan.com/articles
