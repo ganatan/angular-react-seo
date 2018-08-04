@@ -1,7 +1,7 @@
 module.exports = {
     apps : [
       {
-        name      : 'seed',
+        name      : 'starter',
         script    : 'dist/server',
         env: {
           COMMON_VARIABLE: 'true'
