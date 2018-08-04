@@ -1,5 +1,5 @@
 {
-  "name": "angular-erp-seed",
+  "name": "angular-erp-starter",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server",
-    "build:client-and-server-bundles": "ng build --prod && ng run angular-erp-seed:server",
+    "build:client-and-server-bundles": "ng build --prod && ng run angular-erp-starter:server",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
   },
   "private": true,
@@ -40,7 +40,7 @@
     "@angular/language-service": "6.1.1",
     "@types/jasmine": "2.8.8",
     "@types/jasminewd2": "2.0.3",
-    "@types/node": "10.5.5",
+    "@types/node": "10.5.6",
     "codelyzer": "4.4.2",
     "jasmine-core": "3.1.0",
     "jasmine-spec-reporter": "4.2.1",

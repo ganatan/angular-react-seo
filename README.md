@@ -1,5 +1,5 @@
-# Angular ERP seed
-- Date : 03/08/2018 19:49
+# Angular ERP starter
+- Date : 04/08/2018 14:58
 - Author : chendra
 
 # Demo
@@ -8,6 +8,7 @@ http://starter.ganatan.com/
 # Goal
 - Basic Angular Project (version 6.1.1 du 03/08/2018)
 - SSR (server side rendering)
+- Routing
 
 # Prerequisites
 - Angular / Version 6.1.1
