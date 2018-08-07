@@ -32,6 +32,7 @@
 npm-debug.log
 yarn-error.log
 testem.log
+package-lock.json
 /typings
 
 # System Files
