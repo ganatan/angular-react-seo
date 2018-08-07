@@ -100,7 +100,7 @@
             "main": "src/main.server.ts",
             "tsConfig": "src/tsconfig.server.json"
           }
-        }        
+        }
       }
     },
     "angular-erp-starter-e2e": {

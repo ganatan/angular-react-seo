@@ -1,14 +1,16 @@
 # Angular ERP starter
-- Date : 04/08/2018 15:03
+- Date : 07/08/2018 17:59
 - Author : chendra
 
 # Demo
 http://starter.ganatan.com/
 
 # Goal
-- Basic Angular Project (version 6.1.1 du 03/08/2018)
+- Basic Angular Project (version 6.1.1)
 - SSR (server side rendering)
 - Routing
+- Lazy-loading
+
 
 # Prerequisites
 - Angular / Version 6.1.1
@@ -16,23 +18,25 @@ http://starter.ganatan.com/
 - Angular-universal / Version 6.1.2
 - Node.js / Version v8.11.3
 - npm / Version 6.3.0
+- Typescript / Version 2.9.2
 - Visual studio code / Version 1.25.1
 
 # Installation
-- npm install (installation des dépendances)
+- npm install (installing dependencies)
+- npm outdated (verifying dependencies)
 
-# Debug
+# Developpement
 - npm run start
 
-# Test
+# Tests
 - npm run lint
 - npm run test
 - npm run e2e
 
 # Execution
-- npm run build (compilation aot)
-- npm run build:ssr (compilation aot / ssr)
-- npm run serve:ssr (éxécution en production)
+- npm run build (aot compilation)
+- npm run build:ssr (aot / ssr compilation )
+- npm run serve:ssr (production)
 
-# Tutoriel 
-- www.ganatan.com/articles
+# Tutoriels
+- www.ganatan.com/tutorials
