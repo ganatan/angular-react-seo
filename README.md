@@ -35,16 +35,10 @@ http://starter.ganatan.com/
 - npm run e2e
 
 # Execution
-<<<<<<< HEAD
 - npm run build (aot compilation)
 - npm run build:ssr (aot / ssr compilation )
 - npm run serve:ssr (production)
-=======
-- npm run build (compilation aot)
-- npm run build:ssr (compilation aot / ssr)
-- npm run serve:ssr (éxécution en production)
 - http://localhost:4002
->>>>>>> dd970421e536a67ea490c658fd9c57aac1b7097b
 
 # Tutoriels
 - www.ganatan.com/tutorials
