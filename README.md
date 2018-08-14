@@ -1,5 +1,5 @@
 # Angular ERP starter
-- Date : 14/08/2018 09:55
+- Date : 14/08/2018 11:55
 - Author : chendra
 
 # Demo
@@ -34,10 +34,16 @@ http://starter.ganatan.com/
 - npm run test
 - npm run e2e
 
-# Execution
-- npm run build (aot compilation)
+# AOT Compilation 
+- npm run build
+- compiled files in output directory : dist/Browser 
+
+# AOT / SSR Compilation 
 - npm run build:ssr (aot / ssr compilation )
-- npm run serve:ssr (production)
+- compiled files in output directory : dist/Browser , dist/Server 
+
+# Production
+- npm run serve:ssr
 - http://localhost:4001
 
 # Tutoriels
