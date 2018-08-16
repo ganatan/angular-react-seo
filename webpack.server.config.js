@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-
+ 
 module.exports = {
   entry: { server: './server.ts' },
   resolve: { extensions: ['.js', '.ts'] },

@@ -19,3 +19,4 @@ import { ContactRoutingModule } from './contact-routing.module';
   ],
 })
 export class ContactModule { }
+
