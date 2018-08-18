@@ -48,3 +48,6 @@ http://starter.ganatan.com/
 
 # Tutoriels
 - www.ganatan.com/tutorials
+
+sudo scp nginx.conf /etc/nginx
+sudo service nginx restart
