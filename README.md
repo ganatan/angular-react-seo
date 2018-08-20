@@ -1,20 +1,21 @@
 # Angular-starter
-- Date : 20/08/2018 09:41
+- Date : 20/08/2018 15:10
 - Author : chendra
 
 # Demo
 http://starter.ganatan.com/
 
-# Goal
+# Goals
 - Basic Angular Project (version 6.1.3)
 - SSR (server side rendering)
 - Routing
 - Lazy-loading
+- Bootstrap
 
 
 # Prerequisites
 - Angular / Version 6.1.3
-- Angular-cli / Version 6.1.3
+- Angular-cli / Version 6.1.4
 - Angular-universal / Version 6.1.2
 - Node.js / Version v8.11.4
 - npm / Version 6.4.0
@@ -49,5 +50,6 @@ http://starter.ganatan.com/
 # Tutoriels
 - www.ganatan.com/tutorials
 
+# Ubuntu Deploy 
 sudo scp nginx.conf /etc/nginx
 sudo service nginx restart
