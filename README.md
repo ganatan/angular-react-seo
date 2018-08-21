@@ -1,5 +1,5 @@
 # Angular-starter
-- Date : 20/08/2018 15:10
+- Date : 21/08/2018 09:58
 - Author : chendra
 
 # Demo
@@ -50,6 +50,6 @@ http://starter.ganatan.com/
 # Tutoriels
 - www.ganatan.com/tutorials
 
-# Ubuntu Deploy 
+# Ubuntu deployment
 sudo scp nginx.conf /etc/nginx
 sudo service nginx restart
