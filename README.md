@@ -1,5 +1,5 @@
 # Angular-starter
-- Date : 21/08/2018 12:09
+- Date : 21/08/2018 16:21
 - Author : chendra
 
 # Demo
@@ -10,8 +10,6 @@ http://starter.ganatan.com/
 - SSR (server side rendering)
 - Routing
 - Lazy-loading
-- Bootstrap
-
 
 # Prerequisites
 - Angular / Version 6.1.3
@@ -20,7 +18,7 @@ http://starter.ganatan.com/
 - Node.js / Version v8.11.4
 - npm / Version 6.4.0
 - Typescript / Version 2.9.2
-- Visual studio code / Version 1.26
+- Visual studio code / Version 1.26.1
 
 # Installation
 - npm install (installing dependencies)
