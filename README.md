@@ -49,5 +49,6 @@ http://starter.ganatan.com/
 - www.ganatan.com/tutorials
 
 # Ubuntu deployment
+pm2 start process.config.js --env prod
 sudo scp nginx.conf /etc/nginx
 sudo service nginx restart
