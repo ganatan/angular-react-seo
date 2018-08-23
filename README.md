@@ -1,20 +1,20 @@
 # Angular-starter
-- Date : 22/08/2018 10:00
+- Date : 23/08/2018 07:04
 - Author : chendra
 
 # Demo
 http://starter.ganatan.com/
 
 # Goals
-- Basic Angular Project (version 6.1.3)
+- Basic Angular Project (version 6.1.4)
 - SSR (server side rendering)
 - Routing
 - Lazy-loading
 
 # Prerequisites
-- Angular / Version 6.1.3
+- Angular / Version 6.1.4
 - Angular-cli / Version 6.1.4
-- Angular-universal / Version 6.1.2
+- Angular-universal / Version 6.1.0
 - Node.js / Version v8.11.4
 - npm / Version 6.4.0
 - Typescript / Version 2.9.2
