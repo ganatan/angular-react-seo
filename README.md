@@ -1,5 +1,5 @@
 # Angular-starter
-- Date : 23/08/2018 15:14
+- Date : 25/08/2018 10:02
 - Author : chendra
 
 # Demo
@@ -13,7 +13,7 @@ http://starter.ganatan.com/
 
 # Prerequisites
 - Angular / Version 6.1.4
-- Angular-cli / Version 6.1.4
+- Angular-cli / Version 6.1.5
 - Angular-universal / Version 6.1.0
 - Node.js / Version v8.11.4
 - npm / Version 6.4.0
