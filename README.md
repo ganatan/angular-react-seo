@@ -35,8 +35,7 @@ http://angular.ganatan.com/
 
 # Tests
 - npm run lint
-- npm run testnpm run lint
-
+- npm run test
 - npm run e2e
 
 # AOT Compilation 
