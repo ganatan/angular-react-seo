@@ -1,24 +1,29 @@
-# Angular-starter
-- Date : 25/08/2018 10:02
+# angular-starter
+- Date : 10/09/2018 15:34
 - Author : chendra
 
 # Demo
-http://starter.ganatan.com/
+http://angular.ganatan.com/
 
-# Goals
-- Basic Angular Project (version 6.1.4)
+# Goal
+- Basic Angular Project (version 6.1.7)
 - SSR (server side rendering)
 - Routing
 - Lazy-loading
+- Bootstrap (v 4.1.3)
+
 
 # Prerequisites
-- Angular / Version 6.1.4
+- Angular / Version 6.1.7
 - Angular-cli / Version 6.1.5
 - Angular-universal / Version 6.1.0
 - Node.js / Version v8.11.4
 - npm / Version 6.4.0
 - Typescript / Version 2.9.2
-- Visual studio code / Version 1.26.1
+- Visual studio code / Version 1.26
+- Boostrap / Version 4.1.3
+- Jquery / Version 3.3.1
+- fontawesome / Version 4.7.0
 
 # Installation
 - npm install (installing dependencies)
@@ -30,7 +35,8 @@ http://starter.ganatan.com/
 
 # Tests
 - npm run lint
-- npm run test
+- npm run testnpm run lint
+
 - npm run e2e
 
 # AOT Compilation 
@@ -39,7 +45,8 @@ http://starter.ganatan.com/
 
 # AOT / SSR Compilation 
 - npm run build:ssr (aot / ssr compilation )
-- compiled files in output directory : dist/Browser , dist/Server 
+- compiled Browser files in output directory : dist/Browser
+- compiled Server files in output directory : dist/Server 
 
 # Production
 - npm run serve:ssr
@@ -52,3 +59,6 @@ http://starter.ganatan.com/
 pm2 start process.config.js --env prod
 sudo scp nginx.conf /etc/nginx
 sudo service nginx restart
+
+# Ubuntu docker deployment
+docker-compose up -d
