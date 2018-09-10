@@ -3,7 +3,7 @@
 - Author : chendra
 
 # Demo
-http://angular.ganatan.com/
+https://angular.ganatan.com/
 
 # Goal
 - Basic Angular Project (version 6.1.7)
