@@ -1,0 +1,19 @@
+
+version: "2"
+services:
+
+  proxy:
+    build: ./proxy
+    image : proxy
+    container_name: proxy
+    ports:
+      - "80:80"
+    restart: always
+
+  main:
+    build: .
+    image : main
+    container_name: main
+    restart: always
+
+

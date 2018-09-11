@@ -12,13 +12,12 @@ https://angular.ganatan.com/
 - Lazy-loading
 - Bootstrap (v 4.1.3)
 
-
 # Prerequisites
 - Angular / Version 6.1.7
 - Angular-cli / Version 6.1.5
 - Angular-universal / Version 6.1.0
-- Node.js / Version v8.11.4
-- npm / Version 6.4.0
+- Node.js / Version v8.12.0
+- npm / Version 6.4.1
 - Typescript / Version 2.9.2
 - Visual studio code / Version 1.26
 - Boostrap / Version 4.1.3
