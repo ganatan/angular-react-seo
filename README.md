@@ -1,5 +1,5 @@
 # angular-starter
-- Date : 10/09/2018 15:34
+- Date : 11/09/2018 07:00
 - Author : chendra
 
 # Demo
@@ -51,8 +51,8 @@ https://angular.ganatan.com/
 - npm run serve:ssr
 - http://localhost:4001
 
-# Tutoriels
-- www.ganatan.com/tutorials
+# Tutorial
+- https://www.ganatan.com/tutorials/demarrer-avec-angular
 
 # Ubuntu deployment
 pm2 start process.config.js --env prod
