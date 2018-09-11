@@ -55,9 +55,9 @@ https://angular.ganatan.com/
 - https://www.ganatan.com/tutorials/demarrer-avec-angular
 
 # Ubuntu deployment
-pm2 start process.config.js --env prod
-sudo scp nginx.conf /etc/nginx
-sudo service nginx restart
+- pm2 start process.config.js --env prod
+- sudo scp nginx.conf /etc/nginx
+- sudo service nginx restart
 
 # Ubuntu docker deployment
-docker-compose up -d
+- docker-compose up -d
