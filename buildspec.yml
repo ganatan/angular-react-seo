@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # Install dependencies needed for running tests
+      - npm install
+
+  # pre_build:
+    # commands:
+      # Discover and run unit tests in the 'tests' directory
+      #- npm test
+  post_build:
+    commands:
+      # Remove existing node_modules to clear dev dependencies
+      - rm -r node_modules
+
+      # Install runtime dependencies
+      - npm install --production
+artifacts:
+  type: zip
+  files:
+    - template.yml
+    - README.md
+    - package.json
+    - app.js
+    - appspec.yml
+    - scripts/*
+    - node_modules/**/*
+    - public/**/*
