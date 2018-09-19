@@ -1,0 +1,21 @@
+version: 0.0
+os: linux
+files:
+  - source: /dist/server.js
+    destination: /home/ec2-user/node-website
+  - source: /package.json
+    destination: /home/ec2-user/node-website
+  - source: /public/
+    destination: /home/ec2-user/node-website/public
+hooks:
+  AfterInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root
