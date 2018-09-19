@@ -26,5 +26,5 @@ artifacts:
     - package.json
     - appspec.yml
     - scripts/*
-    - node_modules/**/*
-    - dist/**/*
+    #- node_modules/**/*
+    #- dist/**/*
