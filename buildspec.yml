@@ -19,6 +19,7 @@ phases:
 
       # Install runtime dependencies
       - npm install --production
+      - npm run build:ssr
 artifacts:
   type: zip
   files:
