@@ -5,8 +5,8 @@ files:
     destination: /home/ec2-user/node-website
   - source: /package.json
     destination: /home/ec2-user/node-website
-  - source: /public/
-    destination: /home/ec2-user/node-website/public
+  - source: /dist/
+    destination: /home/ec2-user/node-website/dist
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
