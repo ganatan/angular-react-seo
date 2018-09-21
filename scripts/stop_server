@@ -1,0 +1,5 @@
+#!/bin/bash
+# pkill -f node
+# forever stopall
+pm2 stop all
+pm2 delete all
