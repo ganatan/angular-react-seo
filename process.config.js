@@ -1,8 +1,8 @@
 module.exports = {
   apps : [
     {
-      name      : 'starter',
-      script    : 'dist/server',
+      name      : 'main',
+      script    : 'app',
       env: {
         COMMON_VARIABLE: 'true'
       },
