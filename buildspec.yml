@@ -24,7 +24,7 @@ artifacts:
   type: zip
   files:
     - package.json
-    - nginx.conf.js
+    - nginx.conf
     - appspec.yml
     - scripts/*
     - dist/**/*
