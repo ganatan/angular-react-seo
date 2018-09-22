@@ -26,6 +26,7 @@ artifacts:
     #- template.yml
     #- README.md
     - package.json
+    - nginx.conf.js
     #- process.config.js
     #- app.js
     - appspec.yml
