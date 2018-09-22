@@ -3,9 +3,7 @@ cd /home/ec2-user/node-website
 #export PORT=80
 #forever start app.js
 #pm2 start process.config.js --env prod
-#pm2 startup
-#pm2 save
-#pm2 start dist/server.js --name main -f
+
 #pm2 start dist/server.js --name main -f
 #pm2 startup
 #pm2 save
