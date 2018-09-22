@@ -7,6 +7,8 @@ files:
     destination: /home/ec2-user/node-website
   - source: /dist/
     destination: /home/ec2-user/node-website/dist
+  - source: /ssl/
+    destination: /home/ec2-user/node-website/ssl
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
