@@ -23,14 +23,9 @@ phases:
 artifacts:
   type: zip
   files:
-    #- template.yml
-    #- README.md
     - package.json
     - nginx.conf.js
-    #- process.config.js
-    #- app.js
     - appspec.yml
     - scripts/*
-    #- node_modules/**/*
     - dist/**/*
     
