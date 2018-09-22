@@ -8,5 +8,6 @@ pm2 start dist/server.js --name main -f
 pm2 startup
 pm2 save
 
+
 sudo scp /home/ec2-user/node-website/nginx.conf /etc/nginx/nginx.conf
 sudo service nginx restart
