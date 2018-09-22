@@ -4,6 +4,9 @@ cd /home/ec2-user/node-website
 #forever start app.js
 #pm2 start process.config.js --env prod
 
+sudo scp /home/ec2-user/node-website/ssl/www.ganatan.com.crt /etc/nginx
+sudo scp /home/ec2-user/node-website/ssl/www.ganatan.com.key /etc/nginx
+
 sudo scp /home/ec2-user/node-website/nginx.conf /etc/nginx/nginx.conf
 sudo service nginx restart
 
