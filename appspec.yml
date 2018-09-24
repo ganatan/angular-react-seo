@@ -5,6 +5,8 @@ files:
     destination: /home/ec2-user/node-website
   - source: /package.json
     destination: /home/ec2-user/node-website
+  - source: /process.config.js
+    destination: /home/ec2-user/node-website
   - source: /dist/
     destination: /home/ec2-user/node-website/dist
   - source: /ssl/

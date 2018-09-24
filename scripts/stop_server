@@ -2,8 +2,8 @@
 # pkill -f node
 # forever stopall
 
-pm2 stop all
-pm2 delete all
+pm2 stop angular
+pm2 delete angular
 
 sudo service nginx stop
 

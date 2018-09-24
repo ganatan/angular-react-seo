@@ -17,6 +17,7 @@ artifacts:
     - package.json
     - nginx.conf
     - appspec.yml
+    - process.config.js
     - scripts/*
     - dist/**/*
     - ssl/**/*

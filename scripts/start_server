@@ -4,13 +4,18 @@ cd /home/ec2-user/node-website
 #forever start app.js
 #pm2 start process.config.js --env prod
 
-sudo scp /home/ec2-user/node-website/ssl/www.ganatan.com.crt /etc/nginx
-sudo scp /home/ec2-user/node-website/ssl/www.ganatan.com.key /etc/nginx
+sudo scp /home/ec2-user/node-website/ssl/www.ganatan.com/www.ganatan.com.crt /etc/nginx
+sudo scp /home/ec2-user/node-website/ssl/www.ganatan.com/www.ganatan.com.key /etc/nginx
+
+sudo scp /home/ec2-user/node-website/ssl/angular.ganatan.com/fullchain.pem /etc/nginx
+sudo scp /home/ec2-user/node-website/ssl/angular.ganatan.com/privkey.pem /etc/nginx
 
 sudo scp /home/ec2-user/node-website/nginx.conf /etc/nginx/nginx.conf
 sudo service nginx restart
 
-pm2 start dist/server.js --name main -f
+pm2 start process.config.js --env prod
+# pm2 start dist/server.js --name main -f
+
 pm2 startup
 pm2 save
 
