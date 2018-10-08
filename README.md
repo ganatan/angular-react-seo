@@ -11,6 +11,9 @@ https://angular.ganatan.com/
 - Routing
 - Lazy-loading
 - Bootstrap (v 4.1.3)
+- httpclient
+- Transferstate
+- PWA
 
 # Prerequisites
 - Angular / Version 6.1.9
@@ -47,7 +50,7 @@ https://angular.ganatan.com/
 - compiled Browser files in output directory : dist/Browser
 - compiled Server files in output directory : dist/Server 
 
-# Production
+# SSR Production
 - npm run serve:ssr
 - http://localhost:4001
 
