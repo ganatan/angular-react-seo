@@ -1,12 +1,12 @@
 # angular-starter
-- Date : 08/10/2018 09:28
+- Date : 08/10/2018 10:44
 - Author : chendra
 
 # Demo
 https://angular.ganatan.com/
 
 # Goal
-- Basic Angular Project (version 6.1.9)
+- Angular Project (v 6.1.9)
 - SSR (server side rendering)
 - Routing
 - Lazy-loading
@@ -62,5 +62,3 @@ https://angular.ganatan.com/
 - sudo scp nginx.conf /etc/nginx
 - sudo service nginx restart
 
-# Ubuntu docker deployment
-- docker-compose up -d
