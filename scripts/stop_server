@@ -1,9 +1,0 @@
-#!/bin/bash
-# pkill -f node
-# forever stopall
-
-pm2 stop angular
-pm2 delete angular
-
-sudo service nginx stop
-
