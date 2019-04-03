@@ -31,7 +31,7 @@
 git clone https://github.com/ganatan/angular-webapp
 
 # change directory
-cd angular-starter-pwa
+cd angular-webapp
 
 # install the repo with npm
 npm install
