@@ -1,39 +1,41 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" routerLink="/">
-    <img src="./assets/params/logo/ganatan.png" width="20" height="20" alt="">
-    <span>&nbsp;ganatan</span>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<header>
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark " style="background-color: #212121;">
+    <a class="navbar-brand" routerLink="/">
+      <span style="color:white">ganatan</span>
+      <img src="./assets/params/images/logo/ganatan.png" width="20" height="20" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/">
+            <i class="fab fa-rebel mr-1"></i> Home
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/about">
+            <i class="fas fa-tv mr-1"></i> About
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/contact">
+            <i class="fas fa-film mr-1"></i> Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/">
-          <i class="fa fa-fw fa-film"></i>&nbsp;Home
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about">
-          <i class="fa fa-fw fa-film"></i>&nbsp;About
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact">
-          <i class="fa fa-fw fa-dashboard"></i>&nbsp;Contact
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<main role="main" class="container">
-  <div class="starter-template">
-    <h1>
-      Welcome to {{ title }}!
-    </h1>
+<main>
+  <div class="container-fluid">
+    <section>
+      <h1> {{ title }} </h1>
+      <h2> (Angular v 7.2.10) </h2>
+    </section>
     <router-outlet></router-outlet>
   </div>
 </main>

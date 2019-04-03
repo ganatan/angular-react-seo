@@ -1,64 +1,81 @@
-# angular-starter
-- Date : 12/11/2018 10:44
-- Author : chendra
+# Angular 7 Starter - Web Application
 
-# Demo
-https://angular.ganatan.com/
 
-# Goal
-- Angular Project (v 6.1.9)
-- SSR (server side rendering)
-- Routing
-- Lazy-loading
-- Bootstrap (v 4.1.3)
-- httpclient
-- Transferstate
-- PWA
+> An Angular starter kit featuring [Angular 7.2.11](https://angular.io), [Angular-cli 7.3.7](https://cli.angular.io/)
 
-# Prerequisites
-- Angular / Version 6.1.9
-- Angular-cli / Version 6.2.4
-- Angular-universal / Version 6.1.0
-- Node.js / Version v8.12.0
-- npm / Version 6.4.1
-- Typescript / Version 2.9.2
-- Visual studio code / Version 1.27.2
-- Boostrap / Version 4.1.3
-- Jquery / Version 3.3.1
-- fontawesome / Version 4.7.0
+> it's part of a repo series designed to create a Progressive WebApp with Angular
 
-# Installation
-- npm install (installing dependencies)
-- npm outdated (verifying dependencies)
+> [Starter](https://github.com/ganatan/angular-starter),
+[Routing](https://github.com/ganatan/angular-starter-routing),
+[Lazy-loading](https://github.com/ganatan/angular-starter-lazy),
+[Bootstrap](https://github.com/ganatan/angular-starter-bootstrap),
+[Server Side Rendering](https://github.com/ganatan/angular-starter-ssr),
+[HttpClient](https://github.com/ganatan/angular-starter-httpclient),
+[Transfer State](https://github.com/ganatan/angular-starter-transferstate),
+[Progressive WebApp](https://github.com/ganatan/angular-starter-pwa),
+[Final Application](https://github.com/ganatan/angular-webapp)
 
-# Developpement
-- npm run start
-- http://localhost:4200
+### Quick start
 
-# AOT Compilation 
-- npm run build
-- http-server -p 8080 -c-1 dist/Browser 
-- http://localhost:8080/
+```bash
+# clone the repo
+git clone https://github.com/ganatan/angular-webapp
 
-# Tests
-- npm run lint
-- npm run test
-- npm run e2e
+# change directory
+cd angular-starter-pwa
 
-# SSR Compilation 
-- npm run build:ssr (ssr compilation )
-- compiled Browser files in output directory : dist/Browser
-- compiled Server files in output directory : dist/Server 
+# install the repo with npm
+npm install
 
-# SSR Production
-- npm run serve:ssr
-- http://localhost:4001
+# start the server
+npm start
 
-# Tutoriaux
-- https://www.ganatan.com/docs
+```
+in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-# Ubuntu deployment
-- pm2 start process.config.js --env prod
-- sudo scp nginx.conf /etc/nginx
-- sudo service nginx restart
 
+## Getting Started
+
+### Prerequisites
+What you need to run this app:
+* Angular version 7.2.11
+* Angular-cli version 7.3.7
+* Visual studio code version 1.32.3
+* Typescript version 3.2.4
+* node.js version 10.15.3 LTS (Long Term Support)
+* npm (node package manager) version 6.9.0
+* Jquery version 3.3.1
+* Bootstrap version 4.3.1
+* Fontawesome version 5.8.1
+
+
+### Installation
+* `npm install` (installing dependencies)
+* `npm outdated` (verifying dependencies)
+
+### Developpement
+* `npm run start`
+*  in your browser [http://localhost:4200](http://localhost:4200) 
+
+### Production without Server Side Rendering (Ahead-of-Time)
+* `npm run build`
+* `http-server -p 8080 -c-1 dist/browser`
+*  in your browser [http://localhost:8080](http://localhost:8080) 
+
+### Production with Server Side Rendering
+* `npm run build:ssr`
+* `npm run serve:ssr`
+*  in your browser [http://localhost:4000](http://localhost:4000) 
+
+### Tests
+* `npm run lint`
+* `npm run test`
+* `npm run e2e`
+
+### Author
+* Updated : 03/04/2019
+* Author  : danny ganatan
+* Website : https://www.ganatan.com/guide
+
+### Tutorials
+*https://www.ganatan.com/tutorials/http://localhost:4202/tutorials/application-web-avec-angular
