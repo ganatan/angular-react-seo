@@ -1,15 +1,5 @@
 
-# Angular 7 Starter - Ligthouse Audits
-
-
-<p align="center">
-  <a href="https://angular.ganatan.com" target="_blank">
-    <img  alt="lighthouse" src="https://www.ganatan.org/articles/img/ApplicationWeb-lightouse-result-final.jpg" class="img-responsive">
-  </a>
-</p>
-
 # Angular 7 Starter - Web Application
-
 
 > An Angular starter kit featuring [Angular 7.2.11](https://angular.io), [Angular-cli 7.3.7](https://cli.angular.io/)
 
@@ -24,6 +14,15 @@
 [Transfer State](https://github.com/ganatan/angular-starter-transferstate),
 [Progressive WebApp](https://github.com/ganatan/angular-starter-pwa),
 [Final Application](https://github.com/ganatan/angular-webapp)
+
+# Ligthouse Audits
+
+<p align="center">
+  <a href="https://angular.ganatan.com" target="_blank">
+    <img  alt="lighthouse" src="https://www.ganatan.org/articles/img/ApplicationWeb-lightouse-result-final.jpg" class="img-responsive">
+  </a>
+</p>
+
 
 ### Quick start
 
