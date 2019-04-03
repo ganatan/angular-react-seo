@@ -1,8 +1,9 @@
-# Demo
-https://angular.ganatan.com
 
-https://www.ganatan.org/articles/img/ApplicationWeb-lightouse-result-final.jpg
-
+<p align="center">
+  <a href="https://angular.ganatan.com" target="_blank">
+    <img  alt="lighthouse" src="https://www.ganatan.org/articles/img/ApplicationWeb-lightouse-result-final.jpg" class="img-responsive">
+  </a>
+</p>
 
 # Angular 7 Starter - Web Application
 
@@ -84,4 +85,4 @@ What you need to run this app:
 * Website : https://www.ganatan.com/guide
 
 ### Tutorials
-*https://www.ganatan.com/tutorials/application-web-avec-angular
+* https://www.ganatan.com/tutorials/application-web-avec-angular
