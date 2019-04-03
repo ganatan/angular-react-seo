@@ -15,7 +15,7 @@
 [Progressive WebApp](https://github.com/ganatan/angular-starter-pwa),
 [Final Application](https://github.com/ganatan/angular-webapp)
 
-# Ligthouse Audits
+# Lighthouse Audits
 
 <p align="center">
   <a href="https://angular.ganatan.com" target="_blank">
