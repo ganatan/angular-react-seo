@@ -1,6 +1,8 @@
 # Demo
 https://angular.ganatan.com
 
+https://www.ganatan.org/articles/img/ApplicationWeb-lightouse-result-final.jpg
+
 
 # Angular 7 Starter - Web Application
 
