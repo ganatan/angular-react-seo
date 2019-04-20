@@ -88,7 +88,7 @@ What you need to run this app:
 ### Author
 * Updated : 11/04/2019
 * Author  : danny ganatan
-* Website : https://www.ganatan.com/guide
+* Website : https://www.ganatan.com/angular
 
 ### Tutorials
 * https://www.ganatan.com/tutorials/application-web-avec-angular
