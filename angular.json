@@ -23,7 +23,7 @@
               "src/assets",
               "src/manifest.json",
               "src/sitemap.xml",
-              "src/robots.txt"
+              "src/robots.txt"              
             ],
             "styles": [
               "src/styles.css",

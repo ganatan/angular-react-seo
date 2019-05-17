@@ -1,7 +1,7 @@
 
 # Angular 7 Starter - Web Application
 
-> An Angular starter kit featuring [Angular 7.2.12](https://angular.io), [Angular-cli 7.3.8](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 7.2.15](https://angular.io), [Angular-cli 7.3.9](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive WebApp with Angular
 
@@ -51,15 +51,15 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What you need to run this app:
-* Angular version 7.2.12
-* Angular-cli version 7.3.8
+* Angular version 7.2.15
+* Angular-cli version 7.3.9
 * Visual studio code version 1.33.0
 * Typescript version 3.2.4
 * node.js version 10.15.3 LTS (Long Term Support)
 * npm (node package manager) version 6.9.0
-* Jquery version 3.4.0
+* Jquery version 3.4.1
 * Bootstrap version 4.3.1
-* Fontawesome version 5.8.1
+* Fontawesome version 5.8.2
 
 
 ### Installation
@@ -86,9 +86,9 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 11/04/2019
+* Updated : 15/05/2019
 * Author  : danny ganatan
-* Website : https://www.ganatan.com/angular
 
 ### Tutorials
-* https://www.ganatan.com/tutorials/application-web-avec-angular
+* Website  : https://www.ganatan.com/angular
+* Tutorial : https://www.ganatan.com/tutorials/application-web-avec-angular
