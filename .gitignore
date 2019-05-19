@@ -14,6 +14,8 @@
 chrome-profiler-events.json
 speed-measure-plugin.json
 
+package-lock.json
+
 # IDEs and editors
 /.idea
 .project

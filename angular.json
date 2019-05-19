@@ -21,9 +21,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.json",
-              "src/sitemap.xml",
-              "src/robots.txt"              
+              "src/manifest.json"
             ],
             "styles": [
               "src/styles.css",
