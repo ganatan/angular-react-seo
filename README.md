@@ -86,9 +86,13 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 15/05/2019
+* Updated : 19/05/2019
 * Author  : danny ganatan
 
 ### Tutorials
 * Website  : https://www.ganatan.com/angular
+
 * Tutorial : https://www.ganatan.com/tutorials/application-web-avec-angular
+
+* Tutorial : https://www.ganatan.com/tutorials/installer-serveur-ubuntu-chez-ovh
+* Tutorial : https://www.ganatan.com/tutorials/angular-sur-ubuntu
