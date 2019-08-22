@@ -1,6 +1,5 @@
 
-# Angular 8 Starter - Web Application
-
+# Angular 8 Starter - Web Application 
 > An Angular starter kit featuring [Angular 8.0.1](https://angular.io), [Angular-cli 8.0.3](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive WebApp with Angular
