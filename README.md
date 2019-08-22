@@ -1,6 +1,7 @@
 
-# Angular 8 Starter - Web Application 
-> An Angular starter kit featuring [Angular 8.0.1](https://angular.io), [Angular-cli 8.0.3](https://cli.angular.io/)
+# Angular 8 Starter - Web Application
+
+> An Angular starter kit featuring [Angular 8.2.3](https://angular.io), [Angular CLI 8.2.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive WebApp with Angular
 
@@ -12,7 +13,13 @@
 [HTTP Client](https://github.com/ganatan/angular-starter-httpclient),
 [Transfer State](https://github.com/ganatan/angular-starter-transferstate),
 [Progressive WebApp](https://github.com/ganatan/angular-starter-pwa),
-[Final Application](https://github.com/ganatan/angular-webapp)
+[Optimize Application](https://github.com/ganatan/angular-webapp),
+[Final Application](https://github.com/ganatan/wosiris)
+
+# Live Demo
+
+[https://www.wosiris.com](https://www.wosiris.com)
+
 
 # Lighthouse Audits
 
@@ -50,15 +57,16 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What you need to run this app:
-* Angular version 8.0.1
-* Angular-cli version 8.0.3
-* Visual studio code version 1.35.1
+* Angular version 8.2.3
+* Angular CLI version 8.2.2
+* Visual studio code version 1.37.1
 * Typescript version 3.4.5
-* node.js version 10.16.0 LTS (Long Term Support)
+* node.js version 10.16.3 LTS (Long Term Support)
 * npm (node package manager) version 6.9.0
+
 * Jquery version 3.4.1
 * Bootstrap version 4.3.1
-* Fontawesome version 5.9.0
+* Fontawesome version 5.10.1
 
 ### Installation
 * `npm install` (installing dependencies)
@@ -84,13 +92,19 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 16/06/2019
+* Updated : 22/08/2019
 * Author  : danny ganatan
 
-### Tutorials
-* Tutorial : https://www.ganatan.com/tutorials/application-web-avec-angular
+### Documentation
 
-* Tutorial : https://www.ganatan.com/tutorials/installer-serveur-ubuntu-chez-ovh
-* Tutorial : https://www.ganatan.com/tutorials/angular-sur-ubuntu
+guidelines in English
+-  Tutorial - https://www.ganatan.com/tutorials/web-application-with-angular
+-  Tutorials Step by Step - https://www.ganatan.com/tutorials/en
 
-* Tutorials  : https://www.ganatan.com/tutorials
+guidelines in French
+- Installation - https://www.ganatan.com/tutorials/application-web-avec-angular
+- Tutoriels Etapes par étapes - https://www.ganatan.com/tutorials
+- Cours - https://www.ganatan.com/courses
+
+* Tutorial   : https://www.ganatan.com/tutorials/installer-serveur-ubuntu-chez-ovh
+* Tutorial   : https://www.ganatan.com/tutorials/angular-sur-ubuntu

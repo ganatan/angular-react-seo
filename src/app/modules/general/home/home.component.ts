@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle('Angular-ganatan : Une application Progressive WebApp développée avec Angular');
+    this.titleService.setTitle('wosiris : Une application Progressive WebApp développée avec Angular');
     this.meta.addTag({
       name: 'angular-webapp',
       content: 'danny ganatan'
@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
     this.meta.updateTag(
       {
         name: 'description',
-        content: 'Cette application a été développée avec angular version 8.0.0 et bootstrap ' +
+        content: 'Cette application a été développée avec angular version 8.2.2 et bootstrap ' +
           ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
       });
   }
