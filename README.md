@@ -1,47 +1,33 @@
+# Angular 8 Example SEO
 
-# Angular 8 Starter - Web Application
+> An Angular starter kit featuring [Angular 8.2.4](https://angular.io), [Angular CLI 8.3.1](https://cli.angular.io/)
 
-> An Angular starter kit featuring [Angular 8.2.3](https://angular.io), [Angular CLI 8.2.2](https://cli.angular.io/)
+> it's part of a repo series designed to create a Progressive Web App with Angular
 
-> it's part of a repo series designed to create a Progressive WebApp with Angular
+* [Step 1 : Example Starter](https://github.com/ganatan/angular-example-starter)
+* [Step 2 : Example Routing](https://github.com/ganatan/angular-example-routing)
+* [Step 3 : Example Lazy-loading](https://github.com/ganatan/angular-example-lazy-loading)
+* [Step 4 : Example Bootstrap](https://github.com/ganatan/angular-example-bootstrap)
+* [Step 5 : Example Server Side Rendering](https://github.com/ganatan/angular-example-ssr)
+* [Step 6 : Example HTTP Client](https://github.com/ganatan/angular-example-httpclient)
+* [Step 7 : Example Transfer State](https://github.com/ganatan/angular-example-transferstate)
+* [Step 8 : Example PWA](https://github.com/ganatan/angular-example-pwa)
+* [Step 9 : Example SEO](https://github.com/ganatan/angular-example-seo)
 
-> [Starter](https://github.com/ganatan/angular-starter),
-[Routing](https://github.com/ganatan/angular-starter-routing),
-[Lazy-loading](https://github.com/ganatan/angular-starter-lazy),
-[Bootstrap](https://github.com/ganatan/angular-starter-bootstrap),
-[Server Side Rendering](https://github.com/ganatan/angular-starter-ssr),
-[HTTP Client](https://github.com/ganatan/angular-starter-httpclient),
-[Transfer State](https://github.com/ganatan/angular-starter-transferstate),
-[Progressive WebApp](https://github.com/ganatan/angular-starter-pwa),
-[Optimize Application](https://github.com/ganatan/angular-webapp),
-[Final Application](https://github.com/ganatan/wosiris)
+* [Step 10 : Angular Progressive Web App](https://github.com/ganatan/angular8-pwa)
 
-# Live Demo
-
-[https://www.wosiris.com](https://www.wosiris.com)
-
-
-# Lighthouse Audits
-
-<p align="center">
-  <a href="https://angular.ganatan.com" target="_blank">
-    <img  alt="lighthouse" src="https://www.ganatan.org/articles/img/applicationweb-lightouse-result-final.jpg" class="img-responsive">
-  </a>
-</p>
-
-# Demo
-
+# PWA Live Demo
 [https://angular.ganatan.com](https://angular.ganatan.com)
 
 
-### Quick start
+## Quick start
 
 ```bash
 # clone the repo
-git clone https://github.com/ganatan/angular-webapp
+git clone https://github.com/ganatan/angular-example-seo.git
 
 # change directory
-cd angular-webapp
+cd angular-example-seo
 
 # install the repo with npm
 npm install
@@ -52,21 +38,20 @@ npm start
 ```
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-
-## Getting Started
-
 ### Prerequisites
 What you need to run this app:
-* Angular version 8.2.3
-* Angular CLI version 8.2.2
-* Visual studio code version 1.37.1
-* Typescript version 3.4.5
+* Angular version 8.2.4
+* Angular CLI version 8.3.1
+* Typescript version 3.5.3
 * node.js version 10.16.3 LTS (Long Term Support)
 * npm (node package manager) version 6.9.0
 
 * Jquery version 3.4.1
 * Bootstrap version 4.3.1
-* Fontawesome version 5.10.1
+* Fontawesome version 5.10.2
+
+## Getting Started
+
 
 ### Installation
 * `npm install` (installing dependencies)
@@ -74,17 +59,10 @@ What you need to run this app:
 
 ### Developpement
 * `npm run start`
-*  in your browser [http://localhost:4200](http://localhost:4200) 
+* in your browser [http://localhost:4200](http://localhost:4200) 
 
-### Production without Server Side Rendering (Ahead-of-Time)
+### Production 
 * `npm run build`
-* `http-server -p 8080 -c-1 dist/browser`
-*  in your browser [http://localhost:8080](http://localhost:8080) 
-
-### Production with Server Side Rendering
-* `npm run build:ssr`
-* `npm run serve:ssr`
-*  in your browser [http://localhost:4000](http://localhost:4000) 
 
 ### Tests
 * `npm run lint`
@@ -92,19 +70,16 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 22/08/2019
+* Updated : 30/08/2019
 * Author  : danny ganatan
 
 ### Documentation
 
 guidelines in English
--  Tutorial - https://www.ganatan.com/tutorials/web-application-with-angular
+-  Tutorial - https://www.ganatan.com/tutorials/search-engine-optimization-with-angular
 -  Tutorials Step by Step - https://www.ganatan.com/tutorials/en
 
 guidelines in French
-- Installation - https://www.ganatan.com/tutorials/application-web-avec-angular
+- Installation - https://www.ganatan.com/tutorials/search-engine-optimization-avec-angular
 - Tutoriels Etapes par étapes - https://www.ganatan.com/tutorials
 - Cours - https://www.ganatan.com/courses
-
-* Tutorial   : https://www.ganatan.com/tutorials/installer-serveur-ubuntu-chez-ovh
-* Tutorial   : https://www.ganatan.com/tutorials/angular-sur-ubuntu
