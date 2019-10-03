@@ -1,6 +1,6 @@
 # Angular 8 Example SEO
 
-> An Angular starter kit featuring [Angular 8.2.4](https://angular.io), [Angular CLI 8.3.1](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 8.2.9](https://angular.io), [Angular CLI 8.3.7](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -40,15 +40,15 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What you need to run this app:
-* Angular version 8.2.4
-* Angular CLI version 8.3.1
+* Angular version 8.2.9
+* Angular CLI version 8.3.7
 * Typescript version 3.5.3
 * node.js version 10.16.3 LTS (Long Term Support)
 * npm (node package manager) version 6.9.0
 
 * Jquery version 3.4.1
 * Bootstrap version 4.3.1
-* Fontawesome version 5.10.2
+* Fontawesome version 5.11.2
 
 ## Getting Started
 
@@ -70,16 +70,15 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 30/08/2019
+* Updated : 03/10/2019
 * Author  : danny ganatan
 
 ### Documentation
 
-guidelines in English
+English Tutorials
 -  Tutorial - https://www.ganatan.com/tutorials/search-engine-optimization-with-angular
 -  Tutorials Step by Step - https://www.ganatan.com/tutorials/en
 
-guidelines in French
+Tutoriels en français
 - Installation - https://www.ganatan.com/tutorials/search-engine-optimization-avec-angular
 - Tutoriels Etapes par étapes - https://www.ganatan.com/tutorials
-- Cours - https://www.ganatan.com/courses
