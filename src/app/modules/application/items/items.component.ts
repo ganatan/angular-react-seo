@@ -16,12 +16,13 @@ export class ItemsComponent implements OnInit {
 
   //  items: any;
   items: any = [];
-
+  loaded: boolean;
   constructor(
     private state: TransferState,
     private itemsService: ItemsService,
     @Inject(PLATFORM_ID) private platformId: object,
     @Inject(APP_ID) private appId: string) {
+
   }
 
   ngOnInit() {
@@ -29,6 +30,7 @@ export class ItemsComponent implements OnInit {
   }
 
   getUsers() {
+    this.loaded = false;
 
     this.items = this.state.get(STATE_KEY_ITEMS, <any> []);
 
@@ -40,9 +42,17 @@ export class ItemsComponent implements OnInit {
               'in the browser' : 'on the server';
             console.log(`getUsers : Running ${platform} with appId=${this.appId}`);
             this.items = items;
+            this.loaded = true;
             this.state.set(STATE_KEY_ITEMS, <any> items);
           });
+    } else {
+      this.loaded = true;
     }
+  }
+
+  resetUsers() {
+    this.items = null;
+    this.loaded = true;
   }
 
 }
