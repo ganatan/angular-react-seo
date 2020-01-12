@@ -1,6 +1,6 @@
 # Angular 8 Example SEO
 
-> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.20](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.22](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -41,7 +41,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Prerequisites
 What you need to run this app:
 * Angular version 8.2.14
-* Angular CLI version 8.3.20
+* Angular CLI version 8.3.22
 * Typescript version 3.5.3
 * Node.js version 12.13.1 LTS (Long Term Support)
 * npm (node package manager) version 6.12.1
@@ -70,7 +70,7 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 16/12/2019
+* Updated : 12/01/2020
 * Author  : danny
 
 ### Documentation
