@@ -22,6 +22,18 @@ export class HomeComponent implements OnInit {
     this.features =
       [
         {
+          name: 'Template Driven Forms',
+          description: 'Build an Angular form with a component and template',
+          icon: 'far fa-file-alt',
+          link: 'template-driven-forms'
+        },
+        {
+          name: 'Chart.js',
+          description: 'Simple yet flexible JavaScript charting for designers & developers',
+          icon: 'fa-share-alt-square',
+          link: 'chartjs'
+        },
+        {
           name: 'Components',
           description: 'Define and control views',
           icon: 'fa-share-alt-square',
@@ -88,9 +100,8 @@ export class HomeComponent implements OnInit {
     this.meta.updateTag(
       {
         name: 'description',
-        content: 'Cette application a été développée avec Angular version 8.2.14 et bootstrap 4.4.1' +
+        content: 'Cette application a été développée avec Angular version 9.0.0 et bootstrap 4.4.1' +
           ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
       });
   }
-
 }
