@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     this.features =
       [
         {
-          name: 'Bootstrap Prototype',
+          name: 'Bootstrap prototype',
           description: 'Bootstrap Prototype Description',
           icon: 'fab fa-bootstrap',
           link: 'bootstrap-prototype'
@@ -52,6 +52,12 @@ export class HomeComponent implements OnInit {
           link: 'template-driven-forms'
         },
         {
+          name: 'Template Driven Forms',
+          description: 'Template Driven Forms Description',
+          icon: 'fab fa-bootstrap',
+          link: 'template-driven-forms'
+        },
+        {
           name: 'Items',
           description: 'Items',
           icon: 'fab fa-bootstrap',
@@ -70,9 +76,8 @@ export class HomeComponent implements OnInit {
     this.meta.updateTag(
       {
         name: 'description',
-        content: 'Cette application a été développée avec Angular version 9.0.5 et bootstrap 4.4.1' +
+        content: 'Cette application a été développée avec Angular version 10.0.1 et bootstrap 4.5.0' +
           ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
       });
   }
-
 }
