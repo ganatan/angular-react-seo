@@ -1,6 +1,6 @@
 # Angular 10 Example SEO
 
-> An Angular starter kit featuring [Angular 10.0.7](https://angular.io), [Angular CLI 10.0.5](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.0.8](https://angular.io), [Angular CLI 10.0.5](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -42,10 +42,10 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What do you need to run this app:
-* Angular version 10.0.7
+* Angular version 10.0.8
 * Angular CLI version 10.0.5
 * Jquery version 3.5.1
-* Bootstrap version 4.5.0
+* Bootstrap version 4.5.1
 * Fontawesome version 5.14.0
 
 ## Getting Started
@@ -77,7 +77,7 @@ What do you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 04/08/2020
+* Updated : 05/08/2020
 * Author  : danny
 
 ### Documentation
