@@ -52,12 +52,6 @@ export class HomeComponent implements OnInit {
           link: 'template-driven-forms'
         },
         {
-          name: 'Template Driven Forms',
-          description: 'Template Driven Forms Description',
-          icon: 'fab fa-bootstrap',
-          link: 'template-driven-forms'
-        },
-        {
           name: 'Items',
           description: 'Items',
           icon: 'fab fa-bootstrap',
@@ -67,7 +61,7 @@ export class HomeComponent implements OnInit {
 
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.titleService.setTitle('angular.ganatan: Une Application Web avec Angular');
     this.meta.addTag({
       name: 'angular.ganatan',
@@ -76,7 +70,7 @@ export class HomeComponent implements OnInit {
     this.meta.updateTag(
       {
         name: 'description',
-        content: 'Cette application a été développée avec Angular version 10.0.14 et bootstrap 4.5.2' +
+        content: 'Cette application a été développée avec Angular version 10.1.1 et bootstrap 4.5.2' +
           ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
       });
   }
