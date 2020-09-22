@@ -1,6 +1,6 @@
 # Angular 10 Example SEO
 
-> An Angular starter kit featuring [Angular 10.1.1](https://angular.io), [Angular CLI 10.1.1](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.1.2](https://angular.io), [Angular CLI 10.1.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -42,8 +42,8 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What do you need to run this app:
-* Angular version 10.1.1
-* Angular CLI version 10.1.1
+* Angular version 10.1.2
+* Angular CLI version 10.1.2
 * Jquery version 3.5.1
 * Bootstrap version 4.5.1
 * Fontawesome version 5.14.0
@@ -97,7 +97,7 @@ sudo apt-get install google-chrome-stable --yes
 
 
 ### Author
-* Updated : 15/09/2020
+* Updated : 22/09/2020
 * Author  : danny
 
 ### Documentation
