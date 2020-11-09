@@ -1,6 +1,6 @@
 # Angular 10 Example SEO
 
-> An Angular starter kit featuring [Angular 10.1.2](https://angular.io), [Angular CLI 10.1.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.2.2](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -40,16 +40,7 @@ npm start
 ```
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-### Prerequisites
-What do you need to run this app:
-* Angular version 10.1.2
-* Angular CLI version 10.1.2
-* Jquery version 3.5.1
-* Bootstrap version 4.5.1
-* Fontawesome version 5.14.0
-
 ## Getting Started
-
 
 ### Installation
 * `npm install` (installing dependencies)
@@ -59,25 +50,10 @@ What do you need to run this app:
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
 
-### Use Chrome version 85 min !!!!
-
 ## Tests
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
-
-## Chrome Installation on Linux
-
-```bash
-sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-
-sudo apt-get update
-
-sudo apt-get install google-chrome-stable --yes
-
-```
 
 ### Compilation
 * `npm run build`       ( without SSR)
@@ -91,13 +67,12 @@ sudo apt-get install google-chrome-stable --yes
 * `change directory` cd ui
 * launch html pages in your browser
 
-### Prototype Bootstrap 5.0.0-alpha1
+### Prototype Bootstrap 5.0.0-alpha2
 * `change directory` cd ui-v5
 * launch html pages in your browser
 
 
 ### Author
-* Updated : 22/09/2020
 * Author  : danny
 
 ### Documentation
