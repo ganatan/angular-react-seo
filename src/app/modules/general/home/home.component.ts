@@ -70,7 +70,7 @@ export class HomeComponent implements OnInit {
     this.meta.updateTag(
       {
         name: 'description',
-        content: 'Cette application a été développée avec Angular version 10.2.2 et bootstrap 4.5.3' +
+        content: 'Cette application a été développée avec Angular version 11.0.0 et bootstrap 4.5.3' +
           ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
       });
   }
