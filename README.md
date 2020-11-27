@@ -1,6 +1,6 @@
 # Angular 11 Example SEO
 
-> An Angular starter kit featuring [Angular 11.0.1](https://angular.io), [Angular CLI 11.0.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.0.2](https://angular.io), [Angular CLI 11.0.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -12,7 +12,7 @@
 ## Quick start
 
 ```bash
-# select a repo
+# choose a repo
 # download the example or clone the repo from github
 git clone https://github.com/ganatan/angular-example-seo.git
 
@@ -44,7 +44,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
 
-## Tests (Use Chrome Version 87 minimum)
+## Tests
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
