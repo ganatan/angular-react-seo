@@ -1,6 +1,6 @@
 # Angular 11 Example SEO
 
-> An Angular starter kit featuring [Angular 11.0.2](https://angular.io), [Angular CLI 11.0.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.0.7](https://angular.io), [Angular CLI 11.0.6](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
