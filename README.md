@@ -1,6 +1,6 @@
 # Angular 11 Example SEO
 
-> An Angular starter kit featuring [Angular 11.0.7](https://angular.io), [Angular CLI 11.0.6](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.2.10](https://angular.io), [Angular CLI 11.2.9](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -14,16 +14,16 @@
 ```bash
 # choose a repo
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-example-seo.git
+git clone https://github.com/ganatan/angular-seo.git
 
 # download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-example-seo.git
+git clone https://gitlab.com/ganatan/angular-seo.git
 
 # download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-example-seo.git
+git clone https://bitbucket.org/ganatan/angular-seo.git
 
 # change directory
-cd angular-example-seo
+cd angular-seo
 
 # install the repo with npm
 npm install
