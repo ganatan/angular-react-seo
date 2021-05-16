@@ -10,7 +10,7 @@ const routes: Routes = [
     path: 'httpclient',
     loadChildren: () => import('./modules/application/items/items.module')
       .then(mod => mod.ItemsModule)
-  },
+  },  
   {
     path: 'template-driven-forms',
     loadChildren: () => import('./modules/application/example-template-driven-forms/tutorial.module')
@@ -30,11 +30,12 @@ const routes: Routes = [
     path: 'reactive-form',
     loadChildren: () => import('./modules/application/example-reactive-form/tutorial.module')
       .then(mod => mod.TutorialModule)
-  }, {
-    path: 'bootstrap-prototype',
-    loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
-      .then(mod => mod.ExampleBootstrapPrototypeModule)
-  },
+  },    
+  {
+    path: 'bootstrap',
+    loadChildren: () => import('./modules/application/example-bootstrap/tutorial.module')
+      .then(mod => mod.TutorialModule)
+  },  
   {
     path: 'contact',
     loadChildren: () => import('./modules/general/contact/contact.module')
@@ -56,7 +57,7 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
     initialNavigation: 'enabled'
-  })],
+})],
   exports: [RouterModule],
   declarations: []
 })

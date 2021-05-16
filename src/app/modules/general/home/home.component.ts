@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 import { environment } from '../../../../environments/environment';
+import { Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Meta, Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-home',
@@ -18,7 +21,8 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private meta: Meta,
-    private titleService: Title) {
+    private titleService: Title,
+    @Inject(PLATFORM_ID) private platformId: object) {
     this.features =
       [
         {
@@ -27,11 +31,11 @@ export class HomeComponent implements OnInit {
           icon: 'fab fa-bootstrap',
           link: 'httpclient'
         },
-        {
-          name: 'Bootstrap prototype',
+         {
+          name: 'Bootstrap',
           description: 'Bootstrap Prototype Description',
           icon: 'fab fa-bootstrap',
-          link: 'bootstrap-prototype'
+          link: 'bootstrap'
         },
         {
           name: 'Reactive Form',
@@ -62,6 +66,9 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    this.loadScript('assets/params/js/index.js');
+
     this.titleService.setTitle('angular.ganatan: Une Application Web avec Angular');
     this.meta.addTag({
       name: 'angular.ganatan',
@@ -73,6 +80,18 @@ export class HomeComponent implements OnInit {
         content: 'Cette application a été développée avec Angular version 11.2.10 et bootstrap 4.6.0' +
           ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
       });
+  }
+
+
+  loadScript(name: string): void {
+
+    if (isPlatformBrowser(this.platformId)) {
+      const s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.src = name;
+      s.async = false;
+      document.getElementsByTagName('head')[0].appendChild(s);
+    }
   }
 
 }
