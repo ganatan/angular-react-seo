@@ -1,6 +1,6 @@
 # Angular 13 Example SEO
 
-> An Angular starter kit featuring [Angular 13.2.1](https://angular.io), [Angular CLI 13.2.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.6](https://angular.io), [Angular CLI 13.2.6](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
