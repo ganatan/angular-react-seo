@@ -1,6 +1,6 @@
 # Angular 13 Example SEO
 
-> An Angular starter kit featuring [Angular 13.2.6](https://angular.io), [Angular CLI 13.2.6](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.3.0](https://angular.io), [Angular CLI 13.3.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -24,9 +24,6 @@ git clone https://github.com/ganatan/angular-seo.git
 
 # download the example or clone the repo from gitlab
 git clone https://gitlab.com/ganatan/angular-seo.git
-
-# download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-seo.git
 
 # change directory
 cd angular-seo
