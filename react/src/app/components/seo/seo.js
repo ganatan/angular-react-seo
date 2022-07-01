@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-class SeoService extends React.Component {
+class Seo extends React.Component {
 
   constructor(props) {
     super(props);
@@ -24,4 +24,4 @@ class SeoService extends React.Component {
 
 }
 
-export default SeoService; 
+export default Seo; 

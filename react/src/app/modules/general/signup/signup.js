@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './signup.css';
-import SeoService from '../../../services/seo/seo-service';
+import Seo from '../../../components/seo/seo';
 
 class Signup extends React.Component {
 
@@ -12,7 +12,7 @@ class Signup extends React.Component {
 
     return (
       <div>
-        <SeoService content={content} title={title}></SeoService>
+        <Seo content={content} title={title}></Seo>
         <div className="container py-5">
           <p className="text-center">signup works!</p>
         </div>

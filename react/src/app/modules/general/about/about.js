@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './about.css';
-import SeoService from '../../../services/seo/seo-service';
+import Seo from '../../../components/seo/seo';
 
 class About extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class About extends React.Component {
 
     return (
       <div>
-        <SeoService content={content} title={title}></SeoService>
+        <Seo content={content} title={title}></Seo>
         <div className="container py-5">
           <p className="text-center">about works!</p>
         </div>

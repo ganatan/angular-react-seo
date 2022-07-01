@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ExampleFormsRouting from './example-forms-routing';
 
 import './example-forms.css';
-import SeoService from '../../../services/seo/seo-service';
+import Seo from '../../../components/seo/seo';
 
 class ExampleForms extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class ExampleForms extends React.Component {
 
     return (
       <div>
-        <SeoService content={content} title={title}></SeoService>
+        <Seo content={content} title={title}></Seo>
         <div id="example-forms">
           <ul>
             <li><Link to="main">main</Link></li>

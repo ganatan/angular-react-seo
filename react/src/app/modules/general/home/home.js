@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import './home.css';
-import SeoService from '../../../services/seo/seo-service';
+import Seo from '../../../components/seo/seo';
 
 import { environment } from '../../../../environments/environment';
 
@@ -89,7 +89,7 @@ class Home extends React.Component {
 
     return (
       <div>
-        <SeoService content={content} title={title}></SeoService>
+        <Seo content={content} title={title}></Seo>
         <div className="container py-5">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center mb-2">

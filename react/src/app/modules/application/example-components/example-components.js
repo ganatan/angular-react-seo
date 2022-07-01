@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ExampleComponentsRouting from './example-components-routing';
 
 import './example-components.css';
-import SeoService from '../../../services/seo/seo-service';
+import Seo from '../../../components/seo/seo';
 
 class ExampleBootstrap extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class ExampleBootstrap extends React.Component {
 
     return (
       <div>
-        <SeoService content={content} title={title}></SeoService>
+        <Seo content={content} title={title}></Seo>
         <div id="example-components">
           <ul>
             <li><Link to="main">main</Link></li>

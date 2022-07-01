@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ContactRouting from './contact-routing';
 
 import './contact.css';
-import SeoService from '../../../services/seo/seo-service';
+import Seo from '../../../components/seo/seo';
 
 class Contact extends React.Component {
 
@@ -15,7 +15,7 @@ class Contact extends React.Component {
 
     return (
       <div>
-        <SeoService content={content} title={title}></SeoService>
+        <Seo content={content} title={title}></Seo>
         <div className="container py-5">
           <p>contact works!</p>
           <ul>
