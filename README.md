@@ -1,4 +1,4 @@
-# Angular 14 & React 18 Examples Seo
+# Angular 15 & React 18 Examples Seo
 
 <table>
 <tr>
@@ -12,7 +12,7 @@ it's part of a repo series designed
 
 to create a **Web Application with Angular 14**
 
-* Featuring [**Angular 14.2.2**](https://github.com/angular/angular/releases) & [**Angular CLI 14.2.2**](https://github.com/angular/angular-cli/releases/)
+* Featuring [**Angular 15.0.1**](https://github.com/angular/angular/releases) & [**Angular CLI 15.0.1**](https://github.com/angular/angular-cli/releases/)
 
 
 * See the [**Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
