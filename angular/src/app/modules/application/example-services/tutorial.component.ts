@@ -43,6 +43,7 @@ export class TutorialComponent implements OnInit {
     this.songSelected = song;
   }
 
+  // eslint-disable-next-line
   onChangeYear($event: any): void {
     this.yearSelected = $event.target.value;
     this.songs = this.songService.getSongs(this.yearSelected);
