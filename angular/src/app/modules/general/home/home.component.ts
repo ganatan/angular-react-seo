@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 import { SeoService } from '../../../services/seo/seo.service';
+import { Feature } from './feature';
 
 @Component({
   selector: 'app-home',
@@ -14,7 +15,7 @@ export class HomeComponent {
   bootstrap = environment.application.bootstrap;
   fontawesome = environment.application.fontawesome;
 
-  features: Array<any>;
+  features: Array<Feature>;
 
   constructor(private seoService: SeoService) {
 

@@ -41,7 +41,7 @@ export class TutorialComponent implements OnInit {
     this.channelSelected = this.channels[0];
   }
 
-  onSelected(event: any): void {
+  onSelected(event: Channel): void {
     this.channelSelected = event;
   }
 
