@@ -1,5 +1,5 @@
 {
-  "name": "angular-seo",
+  "name": "angular-modules",
   "version": "16.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,11 @@
     "test": "ng test",
     "coverage": "ng test --no-watch --code-coverage",
     "serve": "node server",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "dev:ssr": "ng run angular-starter:serve-ssr",
+    "serve:ssr": "node dist/angular-starter/server/main.js",
+    "build:ssr": "ng build && ng run angular-starter:server",
+    "prerender": "ng run angular-starter:prerender"
   },
   "private": true,
   "dependencies": {
@@ -20,9 +24,13 @@
     "@angular/forms": "16.0.0",
     "@angular/platform-browser": "16.0.0",
     "@angular/platform-browser-dynamic": "16.0.0",
+    "@angular/platform-server": "16.0.0",
     "@angular/router": "16.0.0",
+    "@angular/service-worker": "16.0.0",
     "@fortawesome/fontawesome-free": "6.4.0",
+    "@nguniversal/express-engine": "^16.0.0",
     "bootstrap": "5.2.3",
+    "express": "^4.15.2",
     "rxjs": "7.8.1",
     "tslib": "2.5.0",
     "zone.js": "0.13.0"
@@ -36,10 +44,13 @@
     "@angular-eslint/template-parser": "16.0.1",
     "@angular/cli": "16.0.0",
     "@angular/compiler-cli": "16.0.0",
+    "@nguniversal/builders": "^16.0.0",
+    "@types/express": "^4.17.0",
     "@types/jasmine": "4.3.1",
+    "@types/node": "^14.15.0",
     "@typescript-eslint/eslint-plugin": "5.59.2",
     "@typescript-eslint/parser": "5.59.2",
-    "eslint": "^8.39.0",
+    "eslint": "8.40.0",
     "jasmine-core": "4.6.0",
     "karma": "6.4.2",
     "karma-chrome-launcher": "3.2.0",

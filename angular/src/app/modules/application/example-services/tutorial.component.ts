@@ -16,6 +16,7 @@ export class TutorialComponent implements OnInit {
   songSelected: Song;
   yearSelected: number;
 
+
   constructor(private songService: SongService,
     private seoService: SeoService) {
 
