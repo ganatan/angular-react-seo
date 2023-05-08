@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
-import { SeoService } from '../../../services/seo/seo.service';
 import { Feature } from './feature';
+import { SeoService } from '../../../services/seo/seo.service';
+
 
 @Component({
   selector: 'app-home',
@@ -62,5 +63,6 @@ export class HomeComponent {
         },
       ];
   }
+
 
 }
