@@ -6,7 +6,7 @@ import { environment } from '../../../../environments/environment';
 
 import { Feature } from './feature';
 
-import { SeoService } from '../../../../services/seo/seo.service';
+import { SeoService } from '../../../services/seo/seo.service';
 
 @Component({
   selector: 'app-home',
