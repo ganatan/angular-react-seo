@@ -12,7 +12,7 @@ it's part of a repo series designed
 
 to create a **Web Application with Angular 8**
 
-* Featuring [**Angular 18.1.0**](https://github.com/angular/angular/releases) & [**Angular CLI 18.1.0**](https://github.com/angular/angular-cli/releases/)
+* Featuring [**Angular 18.2.11**](https://github.com/angular/angular/releases) & [**Angular CLI 18.2.11**](https://github.com/angular/angular-cli/releases/)
 
 
 * See the [**Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
