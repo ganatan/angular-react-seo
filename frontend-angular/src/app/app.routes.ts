@@ -1,15 +1,15 @@
 import { Routes } from '@angular/router';
 
-import { HomeComponent } from './features/home/home.component';
-import { NotFoundComponent } from './features/not-found/not-found.component';
+import { Home } from './features/home/home';
+import { NotFound } from './features/not-found/not-found';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent, },
+  { path: '', component: Home, },
 
   {
     path: 'bootstrap',
     loadChildren: () => import(`./features/tutorials/example-bootstrap/tutorial.routes`)
-    .then(routes => routes.routes)
+      .then(routes => routes.routes)
   },
   {
     path: 'components',
@@ -27,16 +27,15 @@ export const routes: Routes = [
       .then(mod => mod.TutorialComponent)
   },
 
-
   {
     path: 'login',
-    loadComponent: () => import(`./features/login/login.component`)
-      .then(mod => mod.LoginComponent)
+    loadComponent: () => import(`./features/login/login`)
+      .then(mod => mod.Login)
   },
   {
     path: 'signup',
-    loadComponent: () => import(`./features/signup/signup.component`)
-      .then(mod => mod.SignupComponent)
+    loadComponent: () => import(`./features/signup/signup`)
+      .then(mod => mod.Signup)
   },
 
   {
@@ -51,5 +50,5 @@ export const routes: Routes = [
       .then(routes => routes.routes)
   },
 
-  { path: '**', component: NotFoundComponent }
+  { path: '**', component: NotFound }
 ];

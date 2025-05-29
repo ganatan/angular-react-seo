@@ -30,6 +30,12 @@ module.exports = tseslint.config(
           style: "kebab-case",
         },
       ],
+      "@angular-eslint/component-class-suffix": [
+        "error",
+        {
+          suffixes: ["","Component"] 
+        }
+      ],
       "no-undefined": "error",
       "no-var": "error",
       "prefer-const": "error",
