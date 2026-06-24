@@ -9,7 +9,7 @@
     "coverage": "ng test --coverage",
     "test": "ng test",
     "lint": "ng lint",
-    "serve:ssr:angular-starter": "node dist/angular-starter/server/server.mjs"
+    "serve": "node dist/angular-starter/server/server.mjs"
   },
   "private": true,
   "packageManager": "npm@11.17.0",
