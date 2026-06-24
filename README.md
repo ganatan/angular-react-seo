@@ -1,43 +1,51 @@
-# Angular 22 & Seo
+# Angular 22.0.2 SEO
+
 
 <table>
 <tr>
 <td>
   <a href="https://www.ganatan.com/en">
     <img src="./img/ganatan-about-github.png" align="right"
-    alt="Ganatan Angular Example routing" width="140" height="140">
+    alt="Ganatan Angular Example Demo" width="140" height="140">
   </a>
 
-it's part of a repo series designed 
+it's part of a repo series designed
 
-to create a **Web Application with Angular 20**
+to create a **Web Application with Angular 22**
 
-* Featuring [**Angular 20.0.3**](https://github.com/angular/angular/releases) & [**Angular CLI 20.0.2**](https://github.com/angular/angular-cli/releases/)
-
-
-* See the [**Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
+* Featuring [**Angular 22.0.2**](https://github.com/angular/angular/releases) & [**Angular CLI 22.0.3**](https://github.com/angular/angular-cli/releases/)
 
 
-to create a **Web Application with React 18**
+* See the [**Angular Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
+
+---
 
 
-* Featuring [**React 18.3.1**](https://github.com/facebook/react/releases) & [**Create-react-app 5.0.1**](https://github.com/facebook/create-react-app/releases)
+</td>
+</tr>
+</table>
 
+# [Angular Live Demo](#angular-live-demo)
+Here is a working Angular live demo :  https://angular.ganatan.com
+
+<p align="center">
+  <p align="center">
+    <a href="https://angular.ganatan.com/">
+      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 22 Example 
+      Application"/>
+    </a>
+  </p>
+</p>
 
 
 # [Angular Quick start](#angular-quick-start)
 
 ```bash
-# choose a repo
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-react-seo.git
-
-# download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-react-seo.git
+git clone https://github.com/ganatan/angular-seo.git
 
 # change directory
-cd angular-react-seo
-cd angular
+cd angular-ssr
 
 # install the repo with npm
 npm install
@@ -49,29 +57,15 @@ npm start
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
 
-# [React Quick start](#react-quick-start)
+# [Angular Tutorial](#angular-quick-start)
 
-```bash
-# choose a repo
-# download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-react-seo.git
+Here is a step by step Tutorial :  https://www.ganatan.com/en/tutorials/getting-started-with-angular
 
-# download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-react-seo.git
-
-# change directory
-cd angular-react-seo
-cd react
-
-# install the repo with npm
-npm install
-
-# start the server
-npm start
-
-```
-in your browser go to [http://localhost:3000](http://localhost:3000) 
-
+<p align="center">
+  <a href="https://www.ganatan.com/en/tutorials/getting-started-with-angular">
+    <img src="img/ganatan-angular-starter-github.png" alt="Demo example"/>
+  </a>
+</p>
 
 # [Angular Getting started](#angular-getting-started)
 
@@ -95,40 +89,13 @@ in your browser go to [http://localhost:3000](http://localhost:3000)
 * `npm run coverage`
 
 
-
-# [React Getting started](#react-getting-started)
-
-
-## Installation
-* `npm install` (installing dependencies)
-* `npm outdated` (verifying dependencies)
-
-## Development
-* `npm run start`
-* in your browser go to [http://localhost:3000](http://localhost:3000) 
-
-## Production 
-* `npm run build`
-
-## Linter
-* `npm run lint`
-
-## Tests
-* `npm run test`
-* `npm run coverage`
-
-
-
-
-### Author
+# [Author](#author)
 * Author  : danny
 
-### Documentation
+## [English Tutorials](#english-tutorials)
+- Installation - https://www.ganatan.com/en/tutorials/progressive-web-app-with-angular
+- step-by-step Tutorials - https://www.ganatan.com/tutorials/en
 
-English Tutorials
-- Installation - https://www.ganatan.com/tutorials/search-engine-optimization-with-angular
-- Tutorials Step-by-Step - https://www.ganatan.com/tutorials/en
-
-Tutoriels en français
-- Installation - https://www.ganatan.com/tutorials/search-engine-optimization-avec-angular
+## [Tutoriels en français](#french-tutorials)
+- Installation - https://www.ganatan.com/tutorials/progressive-web-app-avec-angular
 - Tutoriels Etape par étape - https://www.ganatan.com/tutorials
