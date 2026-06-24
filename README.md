@@ -1,4 +1,4 @@
-# Angular 20 & React 18 Examples Seo
+# Angular 22 & Seo
 
 <table>
 <tr>
